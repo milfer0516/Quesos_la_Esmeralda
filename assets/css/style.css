@@ -24,6 +24,7 @@ header {
   background-size: cover;
   height: 450px;
 }
+
 .contenedor_logo_nav {
   width: 80%;
   height: 100px;
@@ -65,6 +66,54 @@ nav ul li a {
   /* font-family: "Raleway", sans-serif; */
   line-height: 70px;
 }
+
+/* section main */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenedor_imagenes{
+  display: flex;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.frase{
+  padding: 50px;
+  font-weight: 900;
+  padding-left: 100px;
+}
+
+.texto{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.slogan h1{
+  font-weight: 900;
+}
+
+.texto:hover{
+  color: blue;
+}
+
+main{
+  height: 250px;
+}
+
+section.texto div.slogan, p.frase{
+  font-family: "Raleway", sans-serif;
+} 
+
+.contenedor_imagenes_img{
+  width: 200px;
+  height: 150px;
+  margin-left: 20px;
+  border: 2px solid #1abc9c;
+  border-radius: 5px;
+}
+
 .icons-nav:hover {
   background-color: #ffb319;
   transition: 0.5s;
