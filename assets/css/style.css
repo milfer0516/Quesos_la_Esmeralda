@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=PT+Sans:wght@400;700&display=swap");
+/* Globales */
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 body {
   font-family: "Lato", sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -12,7 +15,20 @@ body {
 *::after {
   box-sizing: inherit;
 }
-
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+/* Seccion Header */
 header {
   width: 100%;
   height: 100px;
@@ -93,6 +109,50 @@ article {
 }
 
 /* Nosotros */
+
+@media (max-width: 768px) {
+  .container-imagen {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Secicion Main */
+
+.container h1 {
+  margin: 3rem;
+  padding: 3rem;
+  text-align: center;
+  color: #d29d2b;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.container h2 {
+  color: #d29d2b;
+  font-weight: 400;
+  padding: 4rem;
+}
+.sombra {
+  box-shadow: 10px 5px 15px 4px rgba(15, 10, 15, 0.5);
+  border-radius: 1rem;
+}
+.container-imagen {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.container-imagen img {
+  max-width: 50rem;
+  height: 40.5rem;
+}
+.text-main {
+  margin: 3rem;
+  padding-left: 6rem;
+  font-size: 18px;
+  text-align: center;
+  color: #d29d2b;
+  font-weight: 400;
+}
 .nav {
   display: flex;
   justify-content: right;
@@ -102,7 +162,7 @@ article {
 .contenedor-icons {
   display: flex;
   justify-content: space-evenly;
-  padding: 25px;
+  padding: 2.5rem;
 }
 .icons {
   align-items: center;
