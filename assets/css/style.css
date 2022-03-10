@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=PT+Sans:wght@400;700&display=swap");
 html {
+  font-size: 62.5%;
   box-sizing: border-box;
 }
 body {
+  font-size: 16px;
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
@@ -11,6 +13,9 @@ body {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+h1 {
+  font-size: 3.8rem;
 }
 
 header {
@@ -68,45 +73,47 @@ nav ul li a {
 }
 
 /* section main */
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.contenedor_imagenes{
+.contenedor_imagenes {
   display: flex;
   text-align: center;
   margin-top: 70px;
 }
 
-.frase{
+.frase {
   padding: 50px;
   font-weight: 900;
   padding-left: 100px;
 }
 
-.texto{
+.texto {
   padding-top: 10px;
   text-align: center;
 }
 
-.slogan h1{
+.slogan h1 {
   font-weight: 900;
 }
 
-.texto:hover{
+.texto:hover {
   color: blue;
 }
 
-main{
+main {
   height: 250px;
 }
 
-section.texto div.slogan, p.frase{
-  font-family: "Raleway", sans-serif;
-} 
+section.texto div.slogan,
+p.frase {
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: 900;
+}
 
-.contenedor_imagenes_img{
+.contenedor_imagenes_img {
   width: 200px;
   height: 150px;
   margin-left: 20px;
