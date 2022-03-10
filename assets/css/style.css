@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=PT+Sans:wght@400;700&display=swap");
 /* Globales */
 html {
+  font-size: 62.5%;
   box-sizing: border-box;
   font-size: 62.5%;
 }
 body {
+  font-size: 16px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
   margin: 0;
@@ -40,6 +42,7 @@ header {
   background-size: cover;
   height: 450px;
 }
+
 .contenedor_logo_nav {
   width: 80%;
   height: 100px;
@@ -81,6 +84,56 @@ nav ul li a {
   /* font-family: "Raleway", sans-serif; */
   line-height: 70px;
 }
+
+/* section main */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenedor_imagenes {
+  display: flex;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.frase {
+  padding: 50px;
+  font-weight: 900;
+  padding-left: 100px;
+}
+
+.texto {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.slogan h1 {
+  font-weight: 900;
+}
+
+.texto:hover {
+  color: blue;
+}
+
+main {
+  height: 250px;
+}
+
+section.texto div.slogan,
+p.frase {
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: 900;
+}
+
+.contenedor_imagenes_img {
+  width: 200px;
+  height: 150px;
+  margin-left: 20px;
+  border: 2px solid #1abc9c;
+  border-radius: 5px;
+}
+
 .icons-nav:hover {
   background-color: #ffb319;
   transition: 0.5s;
