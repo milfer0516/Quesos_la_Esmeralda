@@ -85,22 +85,18 @@ nav ul li a {
 }
 
 /* section main */
-.contenedor {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 .contenedor_imagenes {
   display: flex;
-  text-align: center;
+  align-items: center;
   margin: 50px;
 }
 
-.frase {
+/* .frase {
   padding: 50px;
   font-weight: 900;
   padding-left: 100px;
-}
+} */
 
 .texto {
   padding-top: 10px;
