@@ -103,10 +103,6 @@ nav ul li a {
   text-align: center;
 }
 
-.slogan h1 {
-  font-weight: 900;
-}
-
 .texto:hover {
   color: blue;
 }
@@ -117,7 +113,6 @@ nav ul li a {
 
 section.texto div.slogan,
 p.frase {
-  /* font-family: "Raleway", sans-serif; */
   font-weight: 900;
 }
 
