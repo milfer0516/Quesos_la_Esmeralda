@@ -92,11 +92,10 @@ nav ul li a {
   margin: 50px;
 }
 
-/* .frase {
+.frase {
   padding: 50px;
-  font-weight: 900;
   padding-left: 100px;
-} */
+}
 
 .texto {
   padding-top: 10px;
@@ -111,8 +110,7 @@ nav ul li a {
   height: 250px;
 } */
 
-section.texto div.slogan,
-p.frase {
+.titulo_main {
   font-weight: 900;
 }
 
