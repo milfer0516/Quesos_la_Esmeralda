@@ -3,7 +3,6 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 body {
   font-size: 16px;
@@ -94,7 +93,7 @@ nav ul li a {
 .contenedor_imagenes {
   display: flex;
   text-align: center;
-  margin-top: 70px;
+  margin: 50px;
 }
 
 .frase {
@@ -116,9 +115,9 @@ nav ul li a {
   color: blue;
 }
 
-main {
+/* main {
   height: 250px;
-}
+} */
 
 section.texto div.slogan,
 p.frase {
