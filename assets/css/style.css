@@ -14,9 +14,6 @@ body {
 *::after {
   box-sizing: inherit;
 }
-h1 {
-  font-size: 3.8rem;
-}
 
 header {
   width: 100%;
