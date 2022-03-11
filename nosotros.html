@@ -19,24 +19,33 @@
     ></script>
   </head>
   <body>
-    <header>
-      <div class="contenedor_logo_nav">
-        <div class="logo">
-          <img src="assets/img/quesos-la-esmealda-logo.png" alt="" />
-        </div>
-        <nav>
-          <ul>
-            <li><a class="icons-nav" href="index.html">Inicio</a></li>
-            <li><a class="icons-nav" href="productos.html">Productos</a></li>
-            <li><a class="icons-nav" href="nosotros.html">Nosotros</a></li>
-            <li>
-              <a class="icons-nav" href="contactanos.html">Contactanos</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header class="header">
+      <nav class="nav">
+        <a href="index.html">
+          <img class="logo" src="assets/img/quesos-la-esmealda-logo.png" alt="" />
+        </a>
+        <button class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="productos.html"
+              >Productos</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link nav-link" href="contactanos.html">Contactanos</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main class="container sombra">
+    <main class="container sombra main">
       <h1 class="title-main">Quesos y Lacteos la Esmeralda</h1>
       <h2 class="title-nosotros">Sobre Nosotros</h2>
 
@@ -127,5 +136,6 @@
         <h6>Designed by ADSI Ficha 2282078</h6>
     </div>
     </footer>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
