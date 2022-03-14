@@ -79,7 +79,7 @@ header {
 .nav-menu-link {
   color: #fbf8f1;
   text-decoration: none;
-  /* padding: -5px -1rem; */
+  padding: 0 1.5rem;
   border-radius: 5px;
 }
 .nav-menu-link:hover {
@@ -134,8 +134,7 @@ header {
 .nav-link_item:hover {
   background-color: #ffb319;
   transition: 0.4s;
-  padding: 10px 15px;
-  border-radius: 4px;
+  padding: 0 15px;
 }
 /* .nav-link:hover {
   color: #444;
@@ -214,11 +213,12 @@ footer {
     color: #fbf8f1;
     text-decoration: none;
     padding: 5px 30px;
-    border-radius: 10px;
+    border-radius: 4px;
   }
   .nav-menu-link:hover {
     background-color: #d29d2b;
     transition: 0.8ms;
+    /* padding: 0 15px; */
   }
   .nav-toggle {
     display: block;
@@ -229,7 +229,7 @@ footer {
   }
 }
 
-@media (min-width: 778px) {
+@media (min-width: 992px) {
   .nosotros {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
